@@ -1060,7 +1060,7 @@ MJob.prototype.do_list.options = manta.DEFAULT_CLI_OPTIONS.concat([
     {
         names: ['state', 's'],
         type: 'string',
-        help: 'only list jobs in a given state',
+        help: 'only list jobs in a given state ie. "running"',
         helpArg: 'STATE'
     }
 ]);
